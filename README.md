@@ -29,6 +29,6 @@ To add to the other sections you much edit the script itself.
 
 ## TODO
 
-:white_square: Making the tree timeline is too much effort to do manually
-:white_square: Separate content from generation
+:white_medium_small_square: Making the tree timeline is too much effort to do manually
+:white_medium_small_square: Separate content from generation
 
