@@ -9,7 +9,7 @@ all: archive latest
 
 latest: ${CV_FILENAME}
 	-[[ -e ${CV_LATEST} ]] || rm ${CV_LATEST}
-	ln -s ${ARCHIVE}/${CV_FILENAME} ${CV_LATEST}
+	cp ${ARCHIVE}/${CV_FILENAME} ${CV_LATEST}
 
 ${CV_FILENAME}:
 	${SCRIPT} > ${ARCHIVE}/${CV_FILENAME}
